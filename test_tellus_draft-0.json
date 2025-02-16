@@ -1,0 +1,57 @@
+###
+
+Pythonで衛星画像を触ってみる その１ #JupyterNotebook - Qiita
+https://qiita.com/kennyQiita/items/9a42c8c019980a22c932
+
+# idが「7d47301d-9533-4be2-a010-31a86912e865」の2020-09-05に撮影されたデータと、
+# id「2c9ccde2-3a8c-4cd2-aac5-4f0c3b33a4a4」で2018-09-08に撮影されたデータを使用する。
+
+SCENE_ID1 = '7d47301d-9533-4be2-a010-31a86912e865'
+SCENE_ID2 = '2c9ccde2-3a8c-4cd2-aac5-4f0c3b33a4a4'
+
+
+
+
+
+# 'id': '7d47301d-9533-4be2-a010-31a86912e865'
+# 'id': '2c9ccde2-3a8c-4cd2-aac5-4f0c3b33a4a4'
+
+# idが「7d47301d-9533-4be2-a010-31a86912e865」の2020-09-05に撮影されたデータと、
+# id「2c9ccde2-3a8c-4cd2-aac5-4f0c3b33a4a4」で2018-09-08に撮影されたデータを使用する。
+
+SCENE_ID1 = '7d47301d-9533-4be2-a010-31a86912e865'
+SCENE_ID2 = '2c9ccde2-3a8c-4cd2-aac5-4f0c3b33a4a4'
+
+
+
+
+
+
+url = 'https://www.tellusxdp.com/api/traveler/v1/datasets/{}/data/{}/files/{}/'.format(dataset_id, data_id, file_id)
+url = 'https://www.tellusxdp.com/api/traveler/v1/datasets/{}/data/{}/files/{}/download-url/'.format(dataset_id, data_id, file_id)
+
+
+
+10402ffd-fb70-4625-9b46-63cec87cd5a9
+7d47301d-9533-4be2-a010-31a86912e865
+4
+
+curl -X POST "https://www.tellusxdp.com/api/traveler/v1/datasets/10402ffd-fb70-4625-9b46-63cec87cd5a9/data/7d47301d-9533-4be2-a010-31a86912e865/files/4/download-url/" -H  "accept: application/json"
+
+
+curl -X POST "https://www.tellusxdp.com/api/traveler/v1/datasets/10402ffd-fb70-4625-9b46-63cec87cd5a9/data/7d47301d-9533-4be2-a010-31a86912e865/files/4/download-url/" -H "accept: application/json" -H "Authorization: Bearer 67749947-a6d5-4032-8dc1-3f1b215094fd"
+
+
+
+(base) chino@chino-Legion-5-15IAH7H:~/LoRaWorks_230822/test_geopandas_jupyter_notebook$ curl -X POST "https://www.tellusxdp.com/api/traveler/v1/datasets/10402ffd-fb70-4625-9b46-63cec87cd5a9/data/7d47301d-9533-4be2-a010-31a86912e865/files/4/download-url/" -H  "accept: application/json"
+{"detail":"認証情報が含まれていません。","code":"not_authenticated"}
+
+
+
+(base) chino@chino-Legion-5-15IAH7H:~/LoRaWorks_230822/test_geopandas_jupyter_notebook$ curl -X POST "https://www.tellusxdp.com/api/traveler/v1/datasets/10402ffd-fb70-4625-9b46-63cec87cd5a9/data/7d47301d-9533-4be2-a010-31a86912e865/files/4/download-url/" -H "accept: application/json" -H "Authorization: Bearer 67749947-a6d5-4032-8dc1-3f1b215094fd"
+{"detail":"このアクションを実行する権限がありません。","code":"permission_denied"}
+
+
+
+
+

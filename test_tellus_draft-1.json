@@ -1,0 +1,38 @@
+{'results': [
+        {'size_bytes': 894255, 'mime_type': 'image/jpeg', 'name': 'BRO-AS201462808498-200905___-SP2R1.1__A_.jpg', 'id': 1, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 10178, 'mime_type': 'application/xml', 'name': 'MET-AS201462808498-200905___-SP2R1.1__A_.xml', 'id': 2, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 5038506136, 'mime_type': 'image/tiff', 'name': 'SOR-IMG-HH-AS201462808498-200905___-SP2R1.1__A_.tif', 'id': 3, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 658236500, 'mime_type': 'image/tiff', 'name': 'AS201462808498-200905_webcog.tif', 'id': 4, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 455386, 'mime_type': 'application/pdf', 'name': 'EULA.pdf', 'id': 5, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 1576, 'mime_type': 'application/octet-stream', 'name': 'POS-AS201462808498-200905___-SP2R1.1__A_.bin', 'id': 6, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 1208, 'mime_type': 'application/octet-stream', 'name': 'ORB-AS201462808498-200905___-SP2R1.1__A_.bin', 'id': 7, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 430376, 'mime_type': 'image/png', 'name': 'AS201462808498-200905_thumb.png', 'id': 8, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        }
+    ]
+}
+{'results': [
+        {'size_bytes': 1576, 'mime_type': 'application/octet-stream', 'name': 'POS-AS200355208498-180908___-SP2R1.1__A_.bin', 'id': 1, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 1208, 'mime_type': 'application/octet-stream', 'name': 'ORB-AS200355208498-180908___-SP2R1.1__A_.bin', 'id': 2, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 643175320, 'mime_type': 'image/tiff', 'name': 'AS200355208498-180908_webcog.tif', 'id': 3, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 431104, 'mime_type': 'image/png', 'name': 'AS200355208498-180908_thumb.png', 'id': 4, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 10179, 'mime_type': 'application/xml', 'name': 'MET-AS200355208498-180908___-SP2R1.1__A_.xml', 'id': 5, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 455386, 'mime_type': 'application/pdf', 'name': 'EULA.pdf', 'id': 6, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 5038506136, 'mime_type': 'image/tiff', 'name': 'SOR-IMG-HH-AS200355208498-180908___-SP2R1.1__A_.tif', 'id': 7, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        },
+        {'size_bytes': 908556, 'mime_type': 'image/jpeg', 'name': 'BRO-AS200355208498-180908___-SP2R1.1__A_.jpg', 'id': 8, 'status': 'uploaded', 'is_downloadable': True, 'require_archived_file_download': False
+        }
+    ]
+}

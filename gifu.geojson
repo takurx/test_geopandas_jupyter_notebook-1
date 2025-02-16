@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [136.76275, 35.42309]}, "properties": {"id": 1, "name": "Gifu", "country": "JPN", "latitude": 35.42309, "longitude": 136.76275, "population": 412895}}]}
